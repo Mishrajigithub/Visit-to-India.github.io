@@ -1,0 +1,139 @@
+*{
+margin:0 ; padding: 0;box-sizing: 0; 
+}
+header{
+    width: 100; height: 100vh; 
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url('taj.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+  nav{
+    width: 100%; height: 15vh;
+    background: rgba(0,0,0,0.2) ;
+    color: white; display: flex;justify-content: space-between;align-items: center; text-transform: uppercase;
+  }
+  nav .logo{
+    width: 25%; text-align: center;
+  }
+
+  nav .menu{
+    width: 40%;
+    display: flex;justify-content: space-around;
+  }
+
+  nav .menu a{
+    width: 25%;
+    text-decoration: none; color: white;
+    font-weight: bold;
+  }
+  nav .menu a:first-child{
+    color:  #00b894;
+  }
+
+  main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; color: white;
+  }
+
+  section{
+
+  }
+  section h3{
+    font-size: 35px; font-weight: 200; letter-spacing: 3px;
+    text-shadow:1px 1px 2px  black;
+  }
+
+  section h1{
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+  }
+
+  section p{
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+  }
+
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;text-decoration: none;
+    letter-spacing: 1px;
+   
+}
+section .btnone{
+    background-color: #fff;
+    color: #000;
+}
+
+ section .btntwo{
+    background-color: #00b894;
+    color: white;
+ }
+ 
+
+
+ 
+
+ .change_content:after{
+   content:'' ;
+   animation: changetext 20s infinite linear;
+   color: #00b894;
+ }
+
+ @keyframes   changetext{
+  0%{content:"DELHI";}
+  2%{content:"Dargeeling";}
+  4%{content:"agra";}
+  6%{content:"West Bengal";}
+  8%{content:"Uttarakhand";}
+  10%{content:"Uttar Pradesh";}
+  12%{content:"Telangana";}
+  14%{content:"Tamil Nadu";}
+  16%{content:"Sikkim";}
+  18%{content:"Rajasthan";}
+  20%{content:"Punjab";}
+  22%{content:"Odisha";}
+  24%{content:"Nagaland";}
+  26%{content:"Mizoram";}
+  28%{content:"Meghalaya";}
+  30%{content:"Manipur";} 
+  32%{content:"Maharashtra";}
+  34%{content:"Madhya Pradesh";}
+  36%{content:"Kerala";}
+  38% {content:"Karnataka";}
+  40%{content:"Jharkhand";} 
+  42%{content:"Himachal Pradesh";} 
+  44%{content:"Haryana";}
+  46%{content:"Gujarat";} 
+  48% {content:"Goa";}
+  50%{content:"Chhattisgarh";}
+  52%{content:"Bihar";}
+  54%{content:"Assam";}
+  56%{content:"Arunachal Pradesh";}
+  58%{content:"Andhra Pradesh";} 
+  60%{content:"Andaman amd Nicobar Island";}
+  62%{content:"Dadra and Nagar Haveli and Daman and Diu";}
+  64%{content:"Chandigarh";} 
+  66%{content:"Lakshadweep";} 
+  68%{content:"Puducherry";}
+  70%{content:"Ladakh";}
+  72%{content:"jammu and Kashmir";}
+
+ }
+
+
+
